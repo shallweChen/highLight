@@ -22,7 +22,7 @@
 	 </style>
 	</head>
 	<body>
-	  <p class="highLight">你瞅啥</p>
-	  <p class="highLight">瞅你咋地！</p>
+	  <b class="highLight">你瞅啥</b>
+	  <b class="highLight">瞅你咋地！</b>
 	</body>
 </html>
