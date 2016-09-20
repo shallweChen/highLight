@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<style>
 	      .highLight{
-	          background-image: -webkit-linear-gradient(left, #333, #333 0%,#fff 5%, #333 10%, #333);
+	          background-image: linear-gradient(left, #333, #333 0%,#fff 5%, #333 10%, #333);
 	          background-size: 200%;
-	          -webkit-text-fill-color: transparent;
-	          -webkit-background-clip: text;
-	          -webkit-animation: anim 2s infinite;
+	          text-fill-color: transparent;
+	          background-clip: text;
+	          animation: anim 2s infinite;
 	      }
 	      @keyframes anim{
 	          0%{
