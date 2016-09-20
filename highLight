@@ -1,28 +1,28 @@
 <!doctype html>
 <html>
 	<head>
-	<title>标题</title>
-	<meta charset="utf-8">
-	<style>
-	      .highLight{
-	          background-image: linear-gradient(left, #333, #333 0%,#fff 5%, #333 10%, #333);
-	          background-size: 200%;
-	          text-fill-color: transparent;
-	          background-clip: text;
-	          animation: anim 2s infinite;
-	      }
-	      @keyframes anim{
-	          0%{
-	              background-position: 0 0;
-	          }
-	          100%{
-	              background-position: -100% 0;
-	          }
-	      }
-	 </style>
+		<title>标题</title>
+		<meta charset="utf-8">
+		<style>
+		  .highLight{
+			  background-image: -webkit-linear-gradient(left, #333, #333 0%,#fff 5%, #333 10%, #333);
+			  background-size: 200%;
+			  -webkit-text-fill-color: transparent;
+			  -webkit-background-clip: text;
+			  -webkit-animation: anim 3s infinite;
+		  }
+		  @keyframes anim{
+			  0%{
+				  background-position: 0 0;
+			  }
+			  100%{
+				  background-position: -100% 0;
+			  }
+		  }
+		</style>
 	</head>
 	<body>
-	  <b class="highLight">你瞅啥</b>
-	  <b class="highLight">瞅你咋地！</b>
+	  <h1 class="highLight">你瞅啥 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam repellat similique fugit aperiam modi adipisci quisquam nesciunt accusamus eos repudiandae officia ab ex velit quis optio accusantium nostrum molestiae.</h1>
+	  <h1 class="highLight">瞅你咋地！ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi accusamus quos tempora obcaecati molestias ad soluta tenetur eligendi dolore voluptates labore minima reprehenderit laudantium deserunt libero. Ipsam iste dolor omnis.</h1>
 	</body>
 </html>
