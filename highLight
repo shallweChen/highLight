@@ -11,7 +11,7 @@
 	          -webkit-background-clip: text;
 	          -webkit-animation: anim 2s infinite;
 	      }
-	      @-webkit-keyframes anim{
+	      @keyframes anim{
 	          0%{
 	              background-position: 0 0;
 	          }
